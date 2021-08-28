@@ -5,6 +5,10 @@ Gridmouse is a mouse emulator controlled by means of the keyboard. This program 
 ![Sample image](Sample.png)
 <br>
 
+Install xdotool:<br>
+sudo pacman -S xdotool          (Arch linux)<br>
+sudo apt-get install xdotool    (Debian)<br>
+
 Compilation:
 ```
 cd Gridmouse

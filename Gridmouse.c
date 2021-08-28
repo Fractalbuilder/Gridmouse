@@ -7,6 +7,10 @@
 #include <gdk/gdkkeysyms.h>
 
 /*
+Install xdotool:
+sudo pacman -S xdotool
+
+Compile:
 gcc `pkg-config --cflags --libs glib-2.0` `pkg-config --cflags --libs gtk+-3.0` -lxdo -o DHM_grid DHM_grid.c
 
 Set the keyboard delay to:
